@@ -8,7 +8,7 @@
 
 This is a mobile application that functions as a basic employee database. It lists the names and emails of each employee in the table. It was created using Android Studio, Kotlin, and SQLite.
 
-The primary files used in this application are in the following path within the repository: <i>app/src/main</i>
+The primary files used in this application are located in the following path within the repository: <i>app/src/main</i>
 
 The Kotlin class files in the <i>java/com/example/employeedatabase</i> path in the <i>main</i> folder are as follows: EmployeeModel.kt, DatabaseHandler.kt, ItemAdapter.kt, MainActivity.kt
 * The EmployeeModel class contains the Data Model class which provides the template for each employee in the database.

@@ -24,7 +24,7 @@ The XML files in the <i>res/layout</i> of the <i>main</i> folder are as follows:
 ## Getting Started
 
 ### Prerequisites
-Gradle 
+Gradle must be installed for the application to run correctly. 
 
 ## Usage
 The basic functionality of the website is as follows:

@@ -60,8 +60,6 @@ The basic functionality of the website is as follows:
 <img src = "screenshots/delete_employee2.PNG">
 <img src = "screenshots/delete_employee3.PNG">
 
-<hr>
-
 ## Resources Used
 
 This project was based off of the following YouTube tutorial: https://www.youtube.com/watch?v=h1rYlMrvNyE

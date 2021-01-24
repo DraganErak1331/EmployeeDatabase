@@ -64,4 +64,4 @@ The basic functionality of the website is as follows:
 
 ## Resources Used
 
-This project was based off of the following YouTube tutorial: https://tutorials.eu/android-sqlite-database-in-depth-guide/
+This project was based off of the following tutorial: https://tutorials.eu/android-sqlite-database-in-depth-guide/

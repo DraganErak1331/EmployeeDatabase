@@ -28,6 +28,7 @@ The XML files in the <i>res/layout</i> path of the <i>main</i> folder are as fol
 ### Prerequisites
 Gradle must be installed for the application to run correctly. 
 <br>
+<br>
 
 ## Usage
 The basic functionality of the website is as follows:

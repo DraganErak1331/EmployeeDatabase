@@ -4,7 +4,7 @@
 
 ## About The Project
 
-<img src = "screenshots/loaded_page.PNG">
+<img src = "screenshots/main_page.PNG">
 
 This is a mobile application that functions as a basic employee database. It lists the names and emails of each employee in the table. It was created using Android Studio, Kotlin, and SQLite.
 
@@ -24,74 +24,43 @@ The XML files in the <i>res/layout</i> of the <i>main</i> folder are as follows:
 ## Getting Started
 
 ### Prerequisites
-The JavaFX SDK needed to be imported as a library in the build path.
-
-The following run configurations needed to be set as VM arguments:
-```sh
---module-path "C:\Program Files (x86)\Java\jre1.8.0_91\lib\javafx-sdk-15.0.1\lib" 
---add-modules javafx.controls,javafx.fxml
-```
-
-A MySQL JDBC driver had to be imported to provide the program with a connection to the MySQL database.
+Gradle 
 
 ## Usage
 The basic functionality of the website is as follows:
 
-* The program is launched and the School Management System windows appears.
+* The user launches the program using an Android Emulator.
+* The program automatically displays all of the employees in the list.
 
-<img src = "screenshots/login_page.PNG">
-
-<hr>
-
-* The user must enter the right credentials as per the login table of the school schema and click the login button.
-
-<img src = "screenshots/wrong_login.PNG">
-<img src = "screenshots/correct_login.PNG">
+<img src = "screenshots/main_page.PNG">
 
 <hr>
 
-* This brings up the Admin Dashboard of the application.
+* From here the user can type in a new employee name and email in the respective text boxes. Clicking the Add Employee button will add the employee to the list and refresh the displayed employees list.
 
-<img src = "screenshots/admin_page.PNG">
-
-<hr>
-
-* From here the user can click the Load/Refresh Data button to bring up all of the information in the students table of the school schema.
-
-<img src = "screenshots/loaded_page.PNG">
+<img src = "screenshots/add_employee1.PNG">
+<img src = "screenshots/add_employee2.PNG">
 
 <hr>
 
-* The user can add a student by entering information into the text boxes in the Add Student section of the page, then clicking the Add Student button. Load/Refresh Student will need to be clicked to refresh the table.
+* The employee can also edit and delete the employees currently shown under the Current Employees section of the page.
 
-<img src = "screenshots/add_student1.PNG">
-<img src = "screenshots/add_student2.PNG">
+* Clicking the edit (pencil) button in one of the employee entries brings up a dialog box where the updated name and email can be put. Clicking the UPDATE button will update the respective employee's information accordingly.
 
-<hr>
-
-* The user can delete a student by clicking on the row of the student they want to delete, then clicking the Deleted Student button. Load/Refresh Student will need to be clicked to refresh the table.
-
-<img src = "screenshots/delete_student1.PNG">
-<img src = "screenshots/delete_student2.PNG">
+<img src = "screenshots/edit_employee1.PNG">
+<img src = "screenshots/edit_employee2.PNG">
+<img src = "screenshots/edit_employee3.PNG">
+<img src = "screenshots/edit_employee4.PNG">
 
 <hr>
 
-* The user can clear the text boxes in the Add Student section by clicking the Clear Form button in the Add Student section.
+* Clicking the delete (red x) button in one of the employee entries brings up an alert asking if the user is sure that they want to delete the respective employee. Clicking Yes will delete the employee from the list and refresh the employees shown in the Current Employees section of the page.
 
-<img src = "screenshots/clear_student_form1.PNG">
-<img src = "screenshots/clear_student_form2.PNG">
-
-<hr>
-
-* The user can add an Admin by entering information into the text boxes in the Add Admin section of the page, then clicking the Add Admin button.
-
-<img src = "screenshots/add_admin.PNG">
+<img src = "screenshots/delete_employee1.PNG">
+<img src = "screenshots/delete_employee2.PNG">
+<img src = "screenshots/delete_employee3.PNG">
 
 <hr>
-
-* The user can clear the text boxes in the Add Admin section by clicking the Clear Form button in the Add Admin section.
-
-<img src = "screenshots/clear_admin_form.PNG">
 
 ## Resources Used
 

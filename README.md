@@ -40,6 +40,7 @@ The basic functionality of the website is as follows:
 * From here the user can type in a new employee name and email in the respective text boxes. Clicking the Add Employee button will add the employee to the list and refresh the displayed employees list.
 
 <img src = "screenshots/add_employee1.PNG">
+<hr>
 <img src = "screenshots/add_employee2.PNG">
 
 <hr>

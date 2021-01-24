@@ -18,7 +18,7 @@ The Kotlin class files in the <i>java/com/example/employeedatabase</i> path in t
 
 The XML files in the <i>res/layout</i> path of the <i>main</i> folder are as follows: content_main.xml, activity_main, item_row.xml, dialog_update.xml
 * The content_main file is used for main content of the page, so where the user can input text and add employees, as well as initializing the RecyclerView which will display all of the employees in the database.
-* THe activity_main file is used as part of the tools layout for the content_main file.
+* The activity_main file is used as part of the tools layout for the content_main file.
 * The item_row file is used for providing the template for each employee that will be displayed from the database. In other words, it provides the template for each item in the RecyclerView.
 * The dialog_update file is used for providing the window that is shows when the user attempts to edit an employee's information. You can edit their name and email.
 

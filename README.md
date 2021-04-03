@@ -8,26 +8,6 @@
 
 This is a mobile application that functions as a basic employee database. It lists the names and emails of each employee in the table. It was created using Android Studio, Kotlin, and SQLite.
 
-The primary files used in this application are located in the following path within this repository: <i>app/src/main</i>
-
-The Kotlin class files in the <i>java/com/example/employeedatabase</i> path in the <i>main</i> folder are as follows: EmployeeModel.kt, DatabaseHandler.kt, ItemAdapter.kt, MainActivity.kt
-* The EmployeeModel class contains the Data Model class which provides the template for each employee in the database.
-* The DatabaseHandler class is used for handling the database logic and extending the SQliteOpenHelper base class, which is used for connecting and interacting with the SQlite database used in this program.
-* The ItemAdapter class creates the view holder for view items, connects the data source of the RecyclerView and handles the view logic by creating a RecyclerView Adapter.
-* The MainActivity class acts as the controller for the UI. It contains all of the functions associated to each part of the UI and bridges the UI and database together.
-
-The XML files in the <i>res/layout</i> path of the <i>main</i> folder are as follows: content_main.xml, activity_main, item_row.xml, dialog_update.xml
-* The content_main file is used for main content of the page, so where the user can input text and add employees, as well as initializing the RecyclerView which will display all of the employees in the database.
-* The activity_main file is used as part of the tools layout for the content_main file.
-* The item_row file is used for providing the template for each employee that will be displayed from the database. In other words, it provides the template for each item in the RecyclerView.
-* The dialog_update file is used for providing the window that is shows when the user attempts to edit an employee's information. You can edit their name and email.
-<br>
-
-## Getting Started
-
-### Prerequisites
-Gradle must be installed for the application to run correctly. 
-<br>
 <br>
 
 ## Usage
@@ -63,6 +43,29 @@ The basic functionality of the website is as follows:
 <img src = "screenshots/delete_employee1.PNG">
 <img src = "screenshots/delete_employee2.PNG">
 <img src = "screenshots/delete_employee3.PNG">
+
+<br>
+
+## File Structure
+
+The primary files used in this application are located in the following path within this repository: <i>app/src/main</i>
+
+The Kotlin class files in the <i>java/com/example/employeedatabase</i> path in the <i>main</i> folder are as follows: EmployeeModel.kt, DatabaseHandler.kt, ItemAdapter.kt, MainActivity.kt
+* The EmployeeModel class contains the Data Model class which provides the template for each employee in the database.
+* The DatabaseHandler class is used for handling the database logic and extending the SQliteOpenHelper base class, which is used for connecting and interacting with the SQlite database used in this program.
+* The ItemAdapter class creates the view holder for view items, connects the data source of the RecyclerView and handles the view logic by creating a RecyclerView Adapter.
+* The MainActivity class acts as the controller for the UI. It contains all of the functions associated to each part of the UI and bridges the UI and database together.
+
+The XML files in the <i>res/layout</i> path of the <i>main</i> folder are as follows: content_main.xml, activity_main, item_row.xml, dialog_update.xml
+* The content_main file is used for main content of the page, so where the user can input text and add employees, as well as initializing the RecyclerView which will display all of the employees in the database.
+* The activity_main file is used as part of the tools layout for the content_main file.
+* The item_row file is used for providing the template for each employee that will be displayed from the database. In other words, it provides the template for each item in the RecyclerView.
+* The dialog_update file is used for providing the window that is shows when the user attempts to edit an employee's information. You can edit their name and email.
+
+<br>
+
+## Prerequisites
+Gradle must be installed for the application to run correctly. 
 
 <br>
 
